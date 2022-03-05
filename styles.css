@@ -1,0 +1,210 @@
+body,
+.top,
+.second,
+.third,
+.image-subtext,
+.fourth-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.first, 
+.images-second,
+.fourth,
+.links{
+    display: flex;
+}
+
+.second-header{
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    text-align: center;
+}
+
+.image-subtext p{
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    width: 180px;
+    text-align: center;
+}
+
+.images-second{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 100px;
+}
+
+.image-subtext img{
+    height: 200px;
+    border-radius: 10px;
+    border: solid blue 2 px;
+    width: 200px;
+}
+
+.links{
+    gap: 15px;
+    margin-top: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+.top,
+.footer{
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    background-color: #1d692e;
+}
+
+.placeholder img{
+    text-align: center;
+    color: #F9FAFB;
+    width: 400px;
+    height: 250px;
+}
+
+.placeholder p{
+    margin: 90px 0 0 0;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.first-container{
+    padding-bottom: 100px;
+    width: 470px;
+}
+
+.header img{
+    gap: 450px;
+    width: 320px;
+    margin-top: -60px;
+    position: relative;  
+}
+
+.first{
+    gap: 100px;
+    align-items: center;
+}
+
+.top{
+    align-items: center;
+}
+
+.first-header{
+    font-family: Arial;
+    font: bold;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9FAF8;
+}
+
+.first-header-subtext{
+    font-family: Arial;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.first-button{
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    background-color: #f9FAF8;
+    border-radius: 10px;
+    color: #1d692e;
+    border-color: #F9FAF8;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+
+.second-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.third{
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote{
+    margin-top: 200px;
+    margin-bottom: auto;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    font-weight: 400;
+    color: #1F2937;
+}
+
+.quoter{
+    flex-basis: 200px;
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+}
+
+.fourth{
+    background-color: #1d692e;
+    color:#F9FAF8;
+    border-radius: 5px;
+}
+
+.third{
+    text-align: center;
+}
+
+.quoter{
+    padding-left: 150px;
+}
+
+.fourth-header{
+    font-weight: 900;
+    font-size: 18px;
+    margin: 40px 0 0 0;
+}
+
+.fourth-subtext{
+    margin: 0 0 40px 0;
+}
+
+.fourth{
+    margin: 80px 150px 80px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 1000px;
+}
+
+.fourth-button{
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    color: #1d692e;
+    border-color: #F9FAF8;
+    background-color: ##1d692e;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.footer p{
+    font-family: "Museo Slab 300","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+    color: #F9FAF8;
+    font-size: 10px;
+}
+
